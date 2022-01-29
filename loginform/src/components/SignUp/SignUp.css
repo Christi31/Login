@@ -1,0 +1,50 @@
+.container {
+  height: 100vh;
+  /* background-color: rgb(121, 122, 122); */
+}
+.card {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.card-border {
+  padding: 20px 50px;
+  width: 500px;
+}
+.form {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.signup-heading {
+  font-weight: 800px;
+  text-align: center;
+  font-size: 28px;
+}
+.toasterMessage {
+  border: 1px solid #ccc;
+  width: 500px;
+  border-radius: 5px;
+  padding: 20px 10px;
+  background-color: yellowgreen;
+  color: black;
+}
+.toasterMessage a {
+  text-decoration: none;
+  color: rgb(8, 63, 88);
+  cursor: pointer;
+}
+.signup-button {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.error-msg {
+  font-size: 14px;
+  color: red;
+  font-weight: 800;
+  padding-left: 20px;
+}

@@ -1,0 +1,29 @@
+.box-container {
+  height: 100vh;
+}
+.loginError {
+  width: 100%;
+  color: rgb(212, 25, 25);
+  text-align: center;
+  font-weight: 600;
+}
+.alignIcon {
+  vertical-align: -8px;
+  padding-right: 5px;
+}
+.apple-heading {
+  font-weight: 800 !important;
+  color: red;
+  margin-bottom: 10px;
+}
+.description {
+  font-size: 14px !important;
+  font-weight: 800 !important;
+  margin-bottom: 30px !important;
+}
+.apple-logo {
+  margin-bottom: 20px;
+}
+.primary {
+  background-color: rgb(191, 195, 197) !important;
+}
