@@ -11,6 +11,12 @@
   vertical-align: -8px;
   padding-right: 5px;
 }
+.error-msg1 {
+  font-size: 14px;
+  color: red;
+  font-weight: 800;
+  clear: both;
+}
 .apple-heading {
   font-weight: 800 !important;
   color: red;

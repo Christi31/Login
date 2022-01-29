@@ -108,7 +108,9 @@ function Login() {
                 autoFocus
                 error={!!errors?.email}
               />
-              {errors.email && <p className="error-msg">{errors.email}</p>}
+              {errors.email && (
+                <span className="error-msg1">{errors.email}</span>
+              )}
               <TextField
                 margin="normal"
                 required
@@ -123,13 +125,15 @@ function Login() {
                 error={!!errors?.password}
               />
               {errors.password && (
-                <p className="error-msg">{errors.password}</p>
+                <span className="error-msg1">{errors.password}</span>
               )}
+
               <FormControlLabel
                 control={<Checkbox value="remember" color="primary" />}
                 label="Remember me"
                 sx={{ mt: 5, mb: 2 }}
               />
+
               <Button
                 type="submit"
                 fullWidth

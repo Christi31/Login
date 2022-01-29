@@ -91,7 +91,7 @@ function CustomHooks() {
             setSignUpSuccess(response.data);
             setTimeout(() => {
               setSignUpSuccess(undefined);
-            }, 5000);
+            }, 10000);
           }
         })
         .catch((error) => {
